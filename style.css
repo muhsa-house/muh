@@ -168,12 +168,7 @@ a:hover{
     display: none !important;
 
  }
-
-}
-
-
-/* Background images */
-.slide:nth-child(6) {
+ .slide:nth-child(6) {
   background: url('images/order2.jpg') no-repeat center center/cover;
 }
 
@@ -182,6 +177,30 @@ a:hover{
 }
 
 .slide:nth-child(8) {
+  background: url('./images/order4.jpg') no-repeat center center/cover;
+}
+
+.slide:nth-child(4) {
+  background: url('./images/order5.jpg') no-repeat center center/cover;
+}
+.slide:nth-child(5) {
+  background: url('./images/order6.jpg') no-repeat center center/cover;
+}
+
+
+}
+
+
+/* Background images */
+.slide:first-child {
+  background: url('images/order2.jpg') no-repeat center center/cover;
+}
+
+.slide:nth-child(2) {
+  background: url('images/order3.jpg') no-repeat center center/cover;
+}
+
+.slide:nth-child(3) {
   background: url('./images/order4.jpg') no-repeat center center/cover;
 }
 
