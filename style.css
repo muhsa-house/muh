@@ -9,9 +9,10 @@
 
 body {
   font-family: 'Cairo', sans-serif;
-  background: #333;
+  background: white;
   color: #fff;
   line-height: 1.6;
+  
 }
 
 .slider {
@@ -38,7 +39,7 @@ body {
 .test{
   position: absolute;
   bottom: 0;
-  margin-bottom: 95px!important;
+  margin-bottom: 20px;
 padding: 20px;
   background-color: rgba(0, 0, 0, 0.4); 
 }
@@ -123,9 +124,9 @@ a:hover{
 
 @media(max-width: 500px) {
   .slide .content {
-    bottom: -300px;
+    bottom: -467px;
     left: 0;
-    width: 100%;
+    width: 54%; 
   }
   .ordernow2{
     float: right;
@@ -137,19 +138,50 @@ a:hover{
   .slide.current .content {
     transform: translateY(-300px);
   }
+  .test{
+    margin-bottom: 120px;
+  }
+  .slide {
+
+    width: 100%;
+    height: 60%;
+
+
+  }
+  
+.tobottom{
+  position: absolute;
+  bottom: 0;
+}
+}
+@media screen and (min-width: 1000px) {
+ .nomobile {
+    display: none !important;
+    position: absolute;
+    bottom: 0;
+ }
+
+}
+@media screen and (max-width: 800px) {
+
+ .nodesktop {
+    display: none !important;
+
+ }
+
 }
 
 
 /* Background images */
-.slide:first-child {
+.slide:nth-child(6) {
   background: url('images/order2.jpg') no-repeat center center/cover;
 }
 
-.slide:nth-child(2) {
+.slide:nth-child(7) {
   background: url('images/order3.jpg') no-repeat center center/cover;
 }
 
-.slide:nth-child(3) {
+.slide:nth-child(8) {
   background: url('./images/order4.jpg') no-repeat center center/cover;
 }
 
