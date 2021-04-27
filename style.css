@@ -124,7 +124,7 @@ a:hover{
 
 @media(max-width: 500px) {
   .slide .content {
-    bottom: -467px;
+    bottom: -390px;
     left: 0;
     width: 54%; 
   }
@@ -139,7 +139,7 @@ a:hover{
     transform: translateY(-300px);
   }
   .test{
-    margin-bottom: 120px;
+    margin-bottom: 200px;
   }
   .slide {
 
@@ -152,6 +152,7 @@ a:hover{
 .tobottom{
   position: absolute;
   bottom: 0;
+  margin-bottom:90px;
 }
 }
 @media screen and (min-width: 1000px) {
@@ -168,7 +169,7 @@ a:hover{
     display: none !important;
 
  }
- .slide:nth-child(6) {
+ /* .slide:nth-child(6) {
   background: url('images/order2.jpg') no-repeat center center/cover;
 }
 
@@ -185,22 +186,22 @@ a:hover{
 }
 .slide:nth-child(5) {
   background: url('./images/order6.jpg') no-repeat center center/cover;
-}
+} */
 
 
 }
 
 
 /* Background images */
-.slide:first-child {
+.slide:nth-child(6) {
   background: url('images/order2.jpg') no-repeat center center/cover;
 }
 
-.slide:nth-child(2) {
+.slide:nth-child(7) {
   background: url('images/order3.jpg') no-repeat center center/cover;
 }
 
-.slide:nth-child(3) {
+.slide:nth-child(8) {
   background: url('./images/order4.jpg') no-repeat center center/cover;
 }
 
